@@ -1,3 +1,4 @@
 export default {
-  input: document.getElementById('input'),
+  input: document.getElementById('js-input'),
+  container: document.getElementById('js-country-container'),
 };
