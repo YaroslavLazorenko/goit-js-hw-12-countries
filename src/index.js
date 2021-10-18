@@ -1,5 +1,6 @@
 import './sass/main.scss';
 import '@pnotify/core/dist/BrightTheme.css';
+import '@pnotify/core/dist/PNotify.css';
 import debounce from 'lodash.debounce';
 import { alert, error } from '@pnotify/core/dist/PNotify.js';
 import { defaults } from '@pnotify/core';
@@ -9,7 +10,7 @@ import refs from './js/refs';
 import fetchCountries from './js/fetchCountries';
 
 const DEBOUNCE_DELAY = 500;
-const SHOW_MESSAGE_DELAY = 1000;
+const SHOW_MESSAGE_DELAY = 3000;
 
 defaults.delay = SHOW_MESSAGE_DELAY;
 const { input, container } = refs;
